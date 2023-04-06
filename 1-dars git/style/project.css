@@ -12,6 +12,12 @@ a{
 ul{
     list-style-type: none;
 }
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 13px 0;
+    background-color: chartreuse;
+}
 .nav__content{
     width: 80%;
     padding: 0 50px;
@@ -27,10 +33,28 @@ nav  .nav__content  ul{
 }
 nav  .nav__content  ul li a{
     font-size: 20px;
-    color: white;
+    color: black;
 }
 nav > .nav__content > a{
     font-size: 25px;
-    color: white;
+    color: black;
     text-transform: uppercase;
+}
+header{
+    height: 90vh;
+}
+section{
+    height: 100vh;
+}
+section:nth-child(1){
+    background-color: blue;
+}
+section:nth-child(2){
+    background-color: green;
+}
+section:nth-child(3){
+    background-color: crimson;
+}
+section:nth-child(4){
+    background-color: gray;
 }
